@@ -1,0 +1,133 @@
+ @import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+ * {
+
+     padding: 0;
+     margin: 0;
+ }
+
+ body {
+
+
+     background: black;
+     color: white;
+ }
+
+ .banner {
+
+     background-image: url(HPimages/banner.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 80vh;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     background-repeat: no-repeat;
+     margin: auto;
+ }
+
+ .banner-text {
+     font-family: 'Harry Potter', sans-serif;
+     color: white;
+     font-size: 3vw;
+     text-align: center;
+
+ }
+
+ nav {
+     font-family: 'Harry Potter', sans-serif;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 100%;
+     height: 25px;
+     font-size: 15px;
+     margin: 10px 0;
+     
+
+ }
+
+ nav ul {
+
+     display: flex;
+     list-style: none;
+
+ }
+
+ nav li {
+
+     padding: 0 5vw;
+
+
+ }
+
+
+ 
+
+ a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #All {
+     margin-top:9vh;
+     margin-bottom: 9vh;
+     text-align: center;
+     font-size: 40px;
+     font-family: 'Harry Potter', sans-serif; ;
+
+ }
+
+ .container1{
+    display: flex;
+    flex-direction: column
+
+    
+ }
+
+ img{
+    max-width: 80%;
+    height: auto;
+    margin: 30px;
+   }
+
+  
+     
+    .row{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+    .tile{
+        width: 35vw;
+        margin: 5vh 1vh;
+        font-size: 20px;
+        font-family: 'Harry Potter', sans-serif; 
+    }
+
+    .title nature{
+
+        margin-left: -20px;
+    }
+    .testimonials{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .testimonials h2{
+        padding-bottom: 5vh;
+        font-size: 30px;
+        font-family: 'Harry Potter', sans-serif;
+    }
+    .testimonials p{
+        padding: 5vh;
+        font-size: 20px;
+        font-family: 'Harry Potter', sans-serif;
+    }
+
+
+
+
