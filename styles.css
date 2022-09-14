@@ -1,9 +1,11 @@
- @import url('http://fonts.cdnfonts.com/css/harry-potter');
+ /* @import url('http://fonts.cdnfonts.com/css/harry-potter'); */
 
  * {
 
      padding: 0;
      margin: 0;
+     font-family: 'Harry Potter', sans-serif;
+                                                
  }
 
  body {
