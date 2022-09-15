@@ -62,8 +62,7 @@
 
      padding: 0 5vw;
 
-
- }
+}
 
 
  
@@ -73,9 +72,12 @@
      color: white;
  }
 
+ 
+ 
+
  #All {
      margin-top:9vh;
-     margin-bottom: 9vh;
+     margin-bottom: 11vh;
      text-align: center;
      font-size: 40px;
      font-family: 'Harry Potter', sans-serif; ;
@@ -90,9 +92,9 @@
  }
 
  img{
-    max-width: 80%;
-    height: auto;
-    margin: 30px;
+    height: 400px;
+    width: 600px;
+    border-radius: 5px;
    }
 
   
@@ -108,13 +110,13 @@
         width: 35vw;
         margin: 5vh 1vh;
         font-size: 20px;
+        margin-bottom: 100px;
         font-family: 'Harry Potter', sans-serif; 
+        letter-spacing: 1px;
+        line-height: 2rem;
     }
 
-    .title nature{
-
-        margin-left: -20px;
-    }
+    
     .testimonials{
         text-align: center;
         margin-bottom: 50px;
