@@ -72,6 +72,11 @@
      color: white;
  }
 
+ nav a:hover {
+    /* background: var(--main-color); */
+    color: darkgoldenrod;
+}
+
  
  
 
