@@ -6,8 +6,8 @@
      margin: 0;
      font-family: 'Harry Potter', sans-serif;
      scroll-behavior: smooth;
-     overflow-x: hidden;
-    max-width: 100%; 
+     /* overflow-x: hidden;
+    max-width: 100%;  */
      
       /* outline: 1px solid red;   */
                                                 
@@ -17,8 +17,8 @@
 
      background: black;
      color: white;
-     margin-left: 1px;
-     margin-right: 1px; 
+     /* margin-left: 1px;
+     margin-right: 1px;  */
  }
 
  .main{
