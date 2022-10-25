@@ -5,14 +5,29 @@
      padding: 0;
      margin: 0;
      font-family: 'Harry Potter', sans-serif;
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+    max-width: 100%; 
+     
+      outline: 1px solid red;  
                                                 
  }
 
  body {
 
-
      background: black;
      color: white;
+     margin-left: 5px;
+     margin-right: 5px; 
+ }
+
+ .main{
+
+    height: 100vh;
+    width: 100vw;
+   
+    
+
  }
 
  .banner {
@@ -20,20 +35,22 @@
      background-image: url(HPimages/banner.jpg);
      background-position: center;
      background-size: cover;
-     height: 80vh;
+     height: 70vh;
      width: 100%;
      justify-content: center;
      align-items: center;
      display: flex;
      background-repeat: no-repeat;
-     margin: auto;
+     margin: 0;
+     
  }
 
  .banner-text {
      font-family: 'Harry Potter', sans-serif;
      color: white;
-     font-size: 3vw;
+     font-size: 3.5vw;
      text-align: center;
+     /* flex-wrap: wrap; */
 
  }
 
@@ -100,6 +117,18 @@
     height: 400px;
     width: 600px;
     border-radius: 5px;
+    margin-top: 40px;
+    
+   
+   }
+
+   b{
+    font-size: 35px;
+   }
+
+   p{
+
+    padding: 20px;
    }
 
   
@@ -127,6 +156,8 @@
         margin-bottom: 50px;
     }
     .testimonials h2{
+        
+        margin-top: 20px;
         padding-bottom: 5vh;
         font-size: 30px;
         font-family: 'Harry Potter', sans-serif;
@@ -138,5 +169,68 @@
     }
 
 
+/* --------------------------------Media Qs--------------------------------------- */
+
+@media (max-width: 1625px) {
+
+    .banner{
+        height: 70vh;
+        width: 100%
+    }
+
+}
+
+@media (max-width: 900px) {
+
+   
+    .banner{
+        height: 70vh;
+     width: 100%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100vw;
+        align-items: center;
+
+}
+
+.tile{
+    width: 80vw;
+    text-align: center;
+}
+}
 
 
+@media (max-width: 600px) {
+
+    
+
+    .banner{
+
+        height: 40vh;
+        width: 105%
+        
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .banner{
+        height: 30vh;
+     width: 150%
+    }
+
+}
+
+@media (max-width: 200px) {
+
+    .banner{
+        height: 20vh;
+     width: 250%
+    }
+
+}
